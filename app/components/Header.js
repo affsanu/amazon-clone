@@ -18,6 +18,7 @@ const Header = () => {
             height={36}
             objectFit="contain"
             className="cursor-pointer"
+            alt=""
           />
         </div>
         {/* Custom Search */}
@@ -52,7 +53,7 @@ const Header = () => {
             <Bars3Icon className="h-6 mr-1" />
             All
         </p>
-        <p className="link">Today's Deals</p>
+        <p className="link">Today&apos;s Deals</p>
         <p className="link">Customer Service</p>
         <p className="link">Registry</p>
         <p className="link">Gift Cards</p>
